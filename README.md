@@ -7,6 +7,8 @@ Makine Öğrenmesi alanında geliştirdiğim projeleri inceleyebilirsiniz. Her p
 |-------|-----------|----------|
 | Mushroom Classification | Decision Tree, Random Forest | %97.7 / %99.1 |
 | Wine Quality | Gaussian Naive Bayes | %96.6 (CV) |
+| Breast Cancer | SVM / Logistic Regression | %98.2 / %97.3 |
+| Titanic | Logistic Regression / GridSearchCV | %81.4 (CV) |
 
 ## Kullanılan Teknolojiler
 Python, Pandas, Matplotlib, Seaborn, Scikit-learn
