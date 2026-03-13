@@ -5,15 +5,18 @@ import pickle
 
 # Veriyi yükle ve encode et
 import os
-df = pd.read_csv(os.path.join(os.path.dirname(__file__), "mushrooms.csv"))
+BASE_DIR = os.path.dirname(__file__)
+
+df = pd.read_csv(os.path.join(BASE_DIR, "mushrooms.csv"))
+
+with open(os.path.join(BASE_DIR, "model.pkl"), "rb") as f:
+    model = pickle.load(f)
 columns = [i for i in df.columns if i != 'class']
 encoders = {}
 for col in columns:
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col])
     encoders[col] = le
-with open("model.pkl", "rb") as f:
-    model = pickle.load(f)
 
 st.title("🍄 Mantar Tahmin Uygulaması")
 st.write("Mantar özelliklerini seçin, model zehirli mi yenilebilir mi söylesin.")
