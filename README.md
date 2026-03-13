@@ -13,6 +13,7 @@ Merhabet! Ben Talha, Istanbul 29 Mayıs Üniversitesi'nde Yönetim Bilişim Sist
 | [Breast Cancer](./breast_cancer.ipynb) | Classification | SVM, Logistic Regression | %98.2 / %97.3 Accuracy |
 | [Titanic Survival](./titanic.ipynb) | Classification | Logistic Regression, GridSearchCV | %81.4 (CV) |
 | [Sales Analysis](./sales_analysis_v2.ipynb) | EDA & Analysis | Pandas, Seaborn | 3 Actionable Insight |
+| [Superstore Analysis](./superstore_analysis.ipynb) | EDA & Analysis | Pandas, Seaborn | 4 Actionable Insight |
 
 ---
 
@@ -32,6 +33,9 @@ Kaggle klasiği Titanic veri setiyle hayatta kalma tahmini. Feature engineering 
 
 ### 📈 Sales Analysis
 Küresel satış verisiyle EDA projesi. Ülke bazlı satış analizi, zaman serisi trendi ve ürün kategorisi analizi yapılmıştır. Her analizde actionable business insight üretilmiştir.
+
+### 🏪 Superstore Analysis
+ABD perakende mağazası verisiyle EDA projesi. Kategori/alt kategori analizi, bölgesel satış dağılımı, kargo süresi analizi ve müşteri segmenti analizi yapılmıştır. Her analizde business insight üretilmiştir.
 
 ---
 
