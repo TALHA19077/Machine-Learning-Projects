@@ -4,7 +4,8 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 
 # Veriyi yükle ve encode et
-df = pd.read_csv("mushrooms.csv")
+import os
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), "mushrooms.csv"))
 columns = [i for i in df.columns if i != 'class']
 encoders = {}
 for col in columns:
