@@ -37,6 +37,9 @@ Küresel satış verisiyle EDA projesi. Ülke bazlı satış analizi, zaman seri
 ### 🏪 Superstore Analysis
 ABD perakende mağazası verisiyle EDA projesi. Kategori/alt kategori analizi, bölgesel satış dağılımı, kargo süresi analizi ve müşteri segmenti analizi yapılmıştır. Her analizde business insight üretilmiştir.
 
+## 🚀 Canlı Uygulama
+[🍄 Mantar Tahmin Uygulaması](https://machine-learning-projects-ugbj4pxebpv2yhwxdpysux.streamlit.app/)
+
 ---
 
 ## 🛠 Kullanılan Teknolojiler
